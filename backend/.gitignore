@@ -1,0 +1,17 @@
+# Secrets: never commit your real database password
+backend/.env
+.env
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Dependencies, if you add Composer or npm later
+vendor/
+node_modules/

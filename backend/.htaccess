@@ -1,0 +1,4 @@
+# Apache: keep config, bootstrap and SQL files from being fetched directly.
+<FilesMatch "^(config|bootstrap)\.php$|\.sql$">
+  Require all denied
+</FilesMatch>
